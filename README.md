@@ -12,6 +12,8 @@ This image contains the on-disk representation of your data structures; used sys
 close(), fsync(), pread(), pwrite().
 To access the file server, we have a client library. The interface and structs that the library supports is defined in mfs.h and helper.h. 
 
+Problem statement : 
+https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/filesystems-distributed/README.md
 
 Functions implemented : 
 MFS_Init()
